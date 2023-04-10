@@ -14,7 +14,7 @@ public class JsonReponse {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        
+
         Student student = new Student("Alex", "Male", 21);
         return student;
     }
